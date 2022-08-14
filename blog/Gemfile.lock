@@ -85,13 +85,16 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2022.2)
+      tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  jekyll-text-theme (~> 2.2, >= 2.2.6)
+  jekyll-text-theme
+  tzinfo-data
 
 BUNDLED WITH
    2.3.20
