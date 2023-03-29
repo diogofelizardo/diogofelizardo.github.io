@@ -2,7 +2,7 @@ import Image from 'next/legacy/image'
 import avatar from '../../public/images/b4d5e297-fec9-42a9-a023-6b1b98fc7873.png'
 import { PageMeta } from '@/components/Meta'
 import Layout from '@/components/Layout'
-import { getAllPosts, getPageBySlug } from '@/lib/cosmic'
+import { getPageBySlug } from '@/lib/cosmic'
 import Socials from '@/components/Socials'
 import { sanitize } from 'isomorphic-dompurify'
 
@@ -52,10 +52,10 @@ const About = ({ pageData, preview }) => {
 }
 
 export async function getStaticProps({ preview = null }) {
-  const allPosts = (await getAllPosts(preview, 'posts')) || null
-  const pageData = (await getPageBySlug('about-page', 'content,metadata')) || null
+  const pageData = JSON.parse(JSON.stringify((await getPageBySlug('about-page', 'content,metadata')))) || null
+
   return {
-    props: { allPosts, pageData, preview },
+    props: { pageData, preview },
     revalidate: 60,
   }
 }
