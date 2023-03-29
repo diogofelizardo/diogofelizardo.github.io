@@ -5,7 +5,7 @@
   "homepage": "https://diogofelizardo.github.io/",
   "scripts": {
     "dev": "next",
-    "deploy": "npm run build && gh-pages -d .next",
+    "deploy": "npm run build && gh-pages -d out",
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
