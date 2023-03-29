@@ -1,6 +1,7 @@
 module.exports = {
   images: {
-    unoptimized: true,
-    domains: ['imgix.cosmicjs.com'],
+    loader: 'akamai',
+    path: '',
+    // domains: ['imgix.cosmicjs.com'],
   },
 }
