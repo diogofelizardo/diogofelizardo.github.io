@@ -1,0 +1,18 @@
+export const devIcons = [
+  { iconName: 'devicon-html5-plain', name: 'HTML' },
+  { iconName: 'devicon-css3-plain', name: 'CSS' },
+  { iconName: 'devicon-javascript-plain', name: 'JavaScript' },
+  { iconName: 'devicon-typescript-original', name: 'TypeScript' },
+  { iconName: 'devicon-nodejs-plain', name: 'Node.js' },
+  { iconName: 'devicon-nestjs-plain', name: 'Nest.js' },
+  { iconName: 'devicon-vuejs-plain', name: 'Vue.js' },
+  { iconName: 'devicon-react-original', name: 'React.js' },
+  { iconName: 'devicon-npm-original-wordmark', name: 'NPM' },
+  { iconName: 'devicon-git-plain', name: 'Git' },
+  { iconName: 'devicon-firebase-plain', name: 'Firebase' },
+  { iconName: 'devicon-mongodb-plain', name: 'MongoDB' },
+  { iconName: 'devicon-docker-plain', name: 'Docker' },
+  { iconName: 'devicon-mysql-plain', name: 'Mysql' },  
+  { iconName: 'devicon-bootstrap-plain', name: 'Bootstrap' },
+  { iconName: 'devicon-jest-plain', name: 'Jest' },
+]
