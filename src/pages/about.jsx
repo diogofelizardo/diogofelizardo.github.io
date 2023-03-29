@@ -53,7 +53,7 @@ const About = ({ pageData, preview }) => {
 
 export async function getStaticProps({ preview = null }) {
   const allPosts = (await getAllPosts(preview, 'posts')) || []
-  const pageData = await getPageBySlug('about-page', 'content,metadata')
+  const pageData = (await getPageBySlug('about-page', 'content,metadata')) || []
   return {
     props: { allPosts, pageData, preview },
     revalidate: 60,
