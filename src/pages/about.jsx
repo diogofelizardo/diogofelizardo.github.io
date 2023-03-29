@@ -6,7 +6,7 @@ import { getPageBySlug } from '@/lib/cosmic'
 import Socials from '@/components/Socials'
 import { sanitize } from 'isomorphic-dompurify'
 
-const About = ({ pageData, preview }) => {
+const About = ({ pageData = null, preview }) => {
   return (
     <>
       <PageMeta
@@ -52,7 +52,7 @@ const About = ({ pageData, preview }) => {
 }
 
 export async function getStaticProps({ preview = null }) {
-  const pageData = JSON.parse(JSON.stringify((await getPageBySlug('about-page', 'content,metadata')))) || null
+  const pageData = await getPageBySlug('about-page', 'content,metadata') || null;
 
   return {
     props: { pageData, preview },
