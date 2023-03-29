@@ -10,18 +10,18 @@ const About = ({ pageData, preview }) => {
   return (
     <>
       <PageMeta
-        title={pageData?.metadata.meta_title}
-        description={pageData?.metadata.meta_description}
+        title={pageData?.metadata?.meta_title}
+        description={pageData?.metadata?.meta_description}
       />
       <Layout preview={preview}>
         <section>
           <h1 className="text-2xl md:text-3xl mb-12 font-bold">
-            {pageData?.metadata.heading}
+            {pageData?.metadata?.heading}
           </h1>
           <div className="flex flex-col md:flex-row-reverse border-b pb-12">
             <div className="flex-1 relative">
               <Image
-                src={pageData?.metadata.image.imgix_url || avatar}
+                src={pageData?.metadata?.image.imgix_url || avatar}
                 alt="Avatar"
                 quality={85}
                 width={500}
@@ -38,10 +38,10 @@ const About = ({ pageData, preview }) => {
                 }}
               />
               <Socials
-                resume={pageData?.metadata.socials.metadata.resume.url}
-                email={pageData?.metadata.socials.metadata.email}
-                github={pageData?.metadata.socials.metadata.github}
-                linkedin={pageData?.metadata.socials.metadata.linkedin}
+                resume={pageData?.metadata?.socials.metadata.resume.url}
+                email={pageData?.metadata?.socials.metadata.email}
+                github={pageData?.metadata?.socials.metadata.github}
+                linkedin={pageData?.metadata?.socials.metadata.linkedin}
               />
             </div>
           </div>
