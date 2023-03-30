@@ -75,8 +75,16 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
+        env:
+          COSMIC_BUCKET_SLUG: ${{ vars.COSMIC_BUCKET_SLUG }}
+          COSMIC_READ_KEY: ${{ vars.COSMIC_READ_KEY }}
+          COSMIC_PREVIEW_SECRET: ${{ vars.COSMIC_PREVIEW_SECRET }}
       - name: Static HTML export with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next export
+        env:
+          COSMIC_BUCKET_SLUG: ${{ vars.COSMIC_BUCKET_SLUG }}
+          COSMIC_READ_KEY: ${{ vars.COSMIC_READ_KEY }}
+          COSMIC_PREVIEW_SECRET: ${{ vars.COSMIC_PREVIEW_SECRET }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
