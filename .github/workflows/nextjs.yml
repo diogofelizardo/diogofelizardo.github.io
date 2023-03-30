@@ -25,24 +25,11 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Display Envs
-  display:
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-    steps:
-    - name: Use variables
-      run: |
-        echo "repository variable : ${{ vars.COSMIC_BUCKET_SLUG }}"
-        echo "organization variable : ${{ vars.COSMIC_READ_KEY }}"
-        echo "overridden variable : ${{ vars.COSMIC_PREVIEW_SECRET }}"
-        echo "variable from shell environment : $env_var"  
-      env:
-        env_var: ${{ vars.COSMIC_PREVIEW_SECRET }}
-
   # Build job
   build:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages    
     steps:
       - name: Checkout
         uses: actions/checkout@v3
