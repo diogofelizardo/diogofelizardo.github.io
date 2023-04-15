@@ -1,6 +1,6 @@
-import markdownStyles from './markdown-styles.module.css'
-import ReactMarkdown from 'react-markdown'
 import Image from "next/legacy/image";
+import ReactMarkdown from 'react-markdown';
+import markdownStyles from './markdown-styles.module.css';
 
 const components = {
   a: a => {
@@ -28,7 +28,7 @@ const components = {
 
 const PostBody = ({ content }) => {
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className="prose max-w-2xl mx-auto">
       <ReactMarkdown
         className={markdownStyles['markdown']}
         components={components}
