@@ -22,8 +22,8 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
-  site: 'https://astronaut.github.io',
-  base: 'my-repo',
+  site: 'https://diogofelizardo.github.io',
+  base: 'diogofelizardo.github.io',
   output: 'static',
 
   integrations: [
