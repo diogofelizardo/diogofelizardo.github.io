@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Felizardo.DEV
+  site: 'https://diogofelizardo.github.io'
   base: '/'
   trailingSlash: false
 

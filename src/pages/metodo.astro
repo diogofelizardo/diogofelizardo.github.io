@@ -1,0 +1,91 @@
+---
+import { YouTube } from 'astro-embed';
+import Features from '~/components/widgets/Features.astro';
+import Hero3 from '~/components/widgets/Hero3.astro';
+import Testimonials2 from '~/components/widgets/Testimonials2.astro';
+import Layout from '~/layouts/BlankLayout.astro';
+
+const metadata = {
+  title: 'Felizardo DEV - Método',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero3>
+    <Fragment slot="subtitle">
+      Conquiste sua primeira vaga como desenvolvedor e ganhe entre R$ 3.000 e R$ 15.000 por mês, sem sobrecarga de conteúdo ou perder tempo com teorias desnecessárias…
+    </Fragment>
+
+    <Fragment slot="content">
+      Pare de apenas consumir cursos básicos e torne-se um profissional altamente desejado pelos recrutadores!
+      <br />
+      <br />
+      Dê o play para ter uma visão geral do método.
+    </Fragment>
+
+    <Fragment slot="image">
+      <YouTube id="gxBkghlglTg" title="Astro just Launched.... Could it be the ultimate web framework?" />
+      <style is:inline>
+        lite-youtube {
+          margin: 0 auto;
+          max-width: 80%;
+        }
+      </style>
+    </Fragment>
+  </Hero>
+
+
+  
+  <Features
+    id="features"
+    title="Por que meu método funciona?"
+    subtitle="Aqui estão alguns motivos pelos quais isso funciona tão bem:"
+    columns={2}
+    items={[
+      {
+        title: 'Esse método vai destacar você no mercado, em um ambiente competitivo, tornando-o um candidato atraente.',
+        icon: 'tabler:layers-union',
+      },
+      {
+        title: 'Vai acelerar sua entrada na carreira, focando no que realmente importa para conquistar sua primeira vaga como desenvolvedor.',
+        icon: 'tabler:artboard',
+      },
+      {
+        title: 'Desenvolve sua autonomia e confiança, qualidades altamente valorizadas pelas empresas e que mostram sua maturidade como profissional.',
+        icon: 'tabler:writing',
+      },
+      {
+        title: 'Você será visto como um ativo e não mais como um iniciante, com habilidades que resolvem problemas e agregam valor real para as empresas.',
+        icon: 'tabler:podium',
+      },
+      {
+        title: 'Crie um portfólio impressionante, com projetos que demonstram suas competências e fazem você se destacar entre os outros candidatos.',
+        icon: 'tabler:rocket',
+      },
+      {
+        title: 'Receba feedback personalizado e construtivo, que irá refinar suas habilidades e prepará-lo para enfrentar os desafios do mercado de trabalho com mais segurança.',
+        icon: 'tabler:eyeglass',
+      },
+    ]}
+  />
+
+
+  
+  <!-- Testimonials Widget *********** -->
+
+  <Testimonials2
+    tagline="Preencha a aplicação abaixo e eu lhe enviarei todos os detalhes da estratégia."
+    
+    callToAction={{
+        variant: 'primary',
+        text: 'APLICAR AGORA',
+        href: 'https://github.com/onwidget/astrowind',
+        target: '_blank',
+        icon: 'tabler:check',
+      
+    }}
+  />
+
+</Layout>

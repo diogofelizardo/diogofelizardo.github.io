@@ -1,0 +1,210 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Header from '~/components/widgets/Header.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Content from '~/components/widgets/Content.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Button from '~/components/ui/Button.astro';
+
+const ebookLink = 'https://pay.kiwify.com.br/GRbxY24'
+
+const metadata = {
+  title: 'Mobile App Homepage',
+};
+---
+
+<Layout metadata={metadata}>
+  <Fragment slot="announcement"></Fragment>
+  <Fragment slot="header">
+    <Header
+      position="left"
+      isSticky
+      showToggleTheme
+    />
+  </Fragment>
+
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Ebook"
+    image={{
+      src: '~/assets/images/ebook.png',
+      alt: 'Ebook Hero Image',
+    }}
+  >
+    <Fragment slot="title">
+      <span class="text-accent dark:text-white highlight">Guia do ChatGPT</span>: <br /> para Programadores
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        Liberte todo o potencial do ChatGPT e eleve seu código a outro nível com este guia prático e completo. 
+      </span>
+    </Fragment>
+
+    <div slot="actions" class="flex max-w-sm gap-4">
+      <Button variant="primary" href={ebookLink}>
+        Comprar Agora
+      </Button>
+    </div>
+  </Hero2>
+
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    items={[
+      {
+        title: 'Escrevendo Novo Código',
+        description:
+          'Aprenda como gerar código eficiente e solucionar problemas com o ChatGPT.',
+        icon: 'tabler:code',
+      },
+      {
+        title: 'Fazendo Perguntas',
+        description:
+          'Entenda como formular perguntas claras para obter respostas precisas e úteis da IA.',
+        icon: 'tabler:question-mark',
+      },
+      {
+        title: 'Correção de Erros',
+        description:
+          'Utilize o ChatGPT para depurar e corrigir erros no seu código de forma ágil.',
+        icon: 'tabler:bug',
+      },
+      {
+        title: 'Refatoração e Melhoria de Lógica',
+        description: 'Melhore a qualidade do seu código com sugestões de refatoração e otimização.',
+        icon: 'tabler:refresh',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/feature/feature1.jpg',
+      alt: 'Colorful Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Principais Recursos do Ebook:</h3>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isAfterContent
+    items={[
+      {
+        title: 'Banco de Dados',
+        description: 'Aprenda a trabalhar com consultas, manipulação e otimização de bancos de dados.',
+        icon: 'tabler:database',
+      },
+      {
+        title: 'Trabalhando com Código Legado',
+        description:
+          'Descubra como lidar com códigos antigos e melhorar sua manutenção.',
+        icon: 'tabler:history',
+      },
+      {
+        title: 'Revisão de Código (Code Review)',
+        description: 'Utilize o ChatGPT para revisar código e garantir a qualidade do seu projeto.',
+        icon: 'tabler:checklist',
+      },
+      {
+        title: 'Bibliotecas de Terceiros',
+        description: `Saiba como integrar e utilizar bibliotecas de terceiros no seu código com facilidade.`,
+        icon: 'tabler:stack',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/feature/feature2.jpg',
+      alt: 'Vintage Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">...outros recursos...</h3>
+    </Fragment>
+  </Content>
+
+
+
+  <Content
+    isReversed
+    items={[
+      {
+        title: 'Desenvolvimento UI',
+        description:
+          'Explore dicas e exemplos para desenvolver interfaces de usuário de forma eficiente.',
+        icon: 'tabler:layout',
+      },
+      {
+        title: 'Desenvolvimento Back-end',
+        description:
+          'Veja como o ChatGPT pode auxiliar no desenvolvimento e integração de back-end.',
+        icon: 'tabler:server',
+      },
+      {
+        title: 'Preparação para Entrevistas',
+        description:
+          'Use o ChatGPT para praticar respostas e se preparar para entrevistas técnicas.',
+        icon: 'tabler:user-check',
+      },
+      {
+        title: 'Envio de Emails',
+        description: 'Aprenda a escrever emails claros e profissionais para clientes e chefes usando o ChatGPT.',
+        icon: 'tabler:mail',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/feature/feature3.jpg',
+      alt: 'Colorful Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">...mais recursos</h3>
+    </Fragment>
+  </Content>
+
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="Ainda tem dúvidas?"
+    items={[
+      {
+        title: 'Como o ChatGPT pode me ajudar no desenvolvimento?',
+        description:
+          'Este Ebook mostra como você pode usar o ChatGPT para gerar código, solucionar problemas, e até aprimorar a documentação de seus projetos.',
+      },
+      {
+        title: 'Este ebook é útil para desenvolvedores de qual nível?',
+        description:
+          'Este guia é para programadores de todos os níveis que querem otimizar seu trabalho com IA.',
+      },
+      {
+        title: 'Quanto custa o ebook?',
+        description: `O ebook "Guia do ChatGPT para Programadores" pode ser adquirido por apenas R$14,90, com acesso vitalício e atualizações gratuitas.`,
+      },
+      {
+        title: 'Quais linguagens de programação são abordadas?',
+        description:
+          'O ebook oferece exemplos práticos que podem ser aplicados a qualquer linguagem de programação.',
+      },
+    ]}
+  />
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    id="download"
+    title="Baixe agora o Guia do ChatGPT para Programadores"
+    subtitle="Aprenda a dominar o ChatGPT e transforme sua forma de programar."
+  >
+    <div slot="actions" class="flex max-w-sm gap-4">
+      <Button variant="primary" href={ebookLink}>
+        Comprar Agora
+      </Button>
+    </div>
+  </CallToAction>
+</Layout>
