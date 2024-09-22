@@ -11,9 +11,13 @@ export const headerData = {
       href: getPermalink('/blog'),
     },
     {
+      text: 'Cursos',
+      href: getPermalink('/cursos'),
+    },
+    {
       text: 'Ebook',
       href: getPermalink('/ebook'),
-    }
+    },
   ],
   // actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
@@ -75,6 +79,6 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/diogofelizardo' },
   ],
   footNote: `
-    Feito por Felizardo.DEV · All rights reserved.
+    Feito por Felizardo.DEV · Todos os direitos reservados.
   `,
 };

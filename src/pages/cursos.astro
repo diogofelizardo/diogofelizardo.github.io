@@ -1,0 +1,53 @@
+---
+import Content from '~/components/widgets/Content.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Felizardo.DEV — Cursos',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+
+
+  <Content
+    id="porfolio"
+    title="Meus Cursos"
+    subtitle=""
+    isReversed
+    items={[
+      {
+        title: 'Descrição:',
+        description:
+          'Desenvolvi um curso completo sobre a criação de bots no WhatsApp utilizando NodeJS e TypeScript, com integração de tecnologias de Inteligência Artificial, como o ChatGPT e o Whisper. O objetivo é ensinar a desenvolver bots modernos e altamente funcionais que possam transformar processos de comunicação em diversas áreas.',
+      },
+      {
+        title: 'Responsabilidades:',
+        description:
+          'Lidero todo o processo de ensino, desde os conceitos iniciais até a implementação prática. O curso cobre tópicos como arquitetura limpa, manipulação de áudio com FFMPEG, e integração com IA para criar soluções inovadoras.',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/cursos/curso1.jpg',
+      alt: 'Tech Design Image',
+    }}
+    callToAction={{
+      target: '_blank',
+      text: 'Acesse o curso',
+      icon: 'tabler:chevron-right',
+      href: 'https://www.udemy.com/course/whatsapp-bot-em-nodejs-integrado-com-inteligencia-artificial/?couponCode=FELIZARDODEV',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        WhatsApp Bot em NodeJS<br /><span class="text-2xl"> integrado com IA</span>
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+</Layout>

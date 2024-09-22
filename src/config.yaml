@@ -11,24 +11,24 @@ metadata:
   title:
     default: AstroWind
     template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "\U0001F4BB Blog sobre programação, com dicas, tutoriais e novidades do mundo da tecnologia."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Felizardo.DEV
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@felizardo.dev'
+    site: '@felizardo.dev'
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: pt-br
   textDirection: ltr
 
 apps:

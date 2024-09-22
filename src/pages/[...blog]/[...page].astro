@@ -24,7 +24,7 @@ const currentPage = page.currentPage ?? 1;
 // const allTags = await findTags();
 
 const metadata = {
-  title: `Blog${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  title: `Blog${currentPage > 1 ? ` — Página ${currentPage}` : ''}`,
   robots: {
     index: blogListRobots?.index && currentPage === 1,
     follow: blogListRobots?.follow,
@@ -40,7 +40,7 @@ const metadata = {
     <Headline
       subtitle="Um espaço com artigos, tutoriais, recursos e conteúdos interessantes sobre desenvolvimento, tecnologia e inovações para desenvolvedores de todos os níveis."
     >
-      O Blog
+      Blog.DEV
     </Headline>
     <BlogList posts={page.data} />
     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
