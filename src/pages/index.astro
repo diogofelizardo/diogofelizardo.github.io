@@ -12,7 +12,6 @@ const metadata = {
 <Layout metadata={metadata}>
 
   <!-- Content Widget **************** -->
-
   <Content
     id="about"
     columns={3}
@@ -42,12 +41,24 @@ const metadata = {
         },
       },
     ]}
-    image={{
-      src: 'https://avatars.githubusercontent.com/u/13451268?v=4',
-      alt: 'Colorful Image',
-      loading: 'eager',
-    }}
   >
+  <Fragment slot="frame">
+      <iframe
+      src="https://3310snake.com/"
+      width="700"  
+      height="700"
+      class="mx-auto w-full rounded-lg bg-gray-500 shadow-lg"
+      style="border: none;"
+      allowfullscreen
+    ></iframe>
+    powered by <a href="https://3310snake.com">3310snake.com</a> 
+  </Fragment>
+  <!-- image={{
+    src: 'https://avatars.githubusercontent.com/u/13451268?v=4',
+    alt: 'Colorful Image',
+    loading: 'eager',
+  }} -->
+
     <Fragment slot="content">
       <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Sobre mim</h2>
       <p>
@@ -68,8 +79,7 @@ const metadata = {
     </Fragment>
   </Content>
   
-
-    <!-- BlogLatestPost Widget **************** -->
+  <!-- BlogLatestPost Widget **************** -->
 
   <BlogLatestPosts
     id="blog"

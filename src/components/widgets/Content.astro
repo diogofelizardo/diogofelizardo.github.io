@@ -15,6 +15,7 @@ const {
   items = [],
   columns,
   image = await Astro.slots.render('image'),
+  frame = await Astro.slots.render('frame'),
   isReversed = false,
   isAfterContent = false,
 
@@ -85,6 +86,13 @@ const {
                   {...image}
                 />
               )}
+            </div>
+          )
+        }
+        {
+          frame && (
+            <div class="frame-content mt-4 text-center">
+              <Fragment set:html={frame} />
             </div>
           )
         }
