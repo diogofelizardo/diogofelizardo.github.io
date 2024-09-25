@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-09-24T19:00:00Z
+publishDate: 2023-09-23T19:00:00Z
 author: Diogo Felizardo
 title: Entendendo Módulos, Controladores e Serviços no NestJS
 excerpt: Aprenda como Módulos, Controladores e Serviços no NestJS funcionam para construir aplicações organizadas e escaláveis.
