@@ -3,7 +3,7 @@ publishDate: 2024-09-28T19:00:00Z
 author: Diogo Felizardo
 title: Escrevendo Testes Unitários no NestJS
 excerpt: Aprenda como escrever testes unitários no NestJS utilizando o Jest para garantir a qualidade da sua aplicação.
-image: '~/assets/images/posts/8.jpg'
+image: '~/assets/images/posts/6.jpg'
 category: NestJS
 tags:
   - nestjs
@@ -396,6 +396,11 @@ Os testes devem ser executados com sucesso, validando o comportamento do `UsersS
 - **Cobertura de Código:** Monitore a cobertura de testes e busque cobrir todos os cenários importantes.
 - **Mantenha os Testes Atualizados:** Atualize os testes conforme o código evolui para garantir sua relevância.
 - **Descreva Claramente os Testes:** Use descrições claras e objetivas para facilitar a compreensão dos objetivos de cada teste.
+
+## Repositório no GitHub
+
+Para acessar o código fonte deste projeto, visite o <a href="https://github.com/diogofelizardo/testes-unitarios-nestjs" target="_blank" rel="noopener noreferrer">Acesse o Repositório no GitHub</a>.
+
 
 ## Conclusão
 
