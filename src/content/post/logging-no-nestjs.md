@@ -1,5 +1,5 @@
 ---
-publishDate: 2024-04-27T12:00:00.000Z
+publishDate: 2024-09-29T12:00:00.000Z
 author: Diogo Felizardo
 title: Logging no NestJs
 excerpt: Aprenda a implementar e customizar o sistema de logs no NestJs para melhorar a manutenção e monitoramento de aplicações.
@@ -10,7 +10,7 @@ tags:
   - NestJS
   - Desenvolvimento Backend
 metadata:
-  canonical: https://seu-blog.com/posts/logging-no-nestjs
+  canonical: https://diogofelizardo.github.io/blog/logging-no-nestjs
 ---
 
 O **logging** é uma parte essencial no desenvolvimento de aplicações backend, permitindo monitorar o comportamento do sistema, diagnosticar problemas e manter registros de eventos importantes. Neste post, exploraremos como implementar e customizar o sistema de logs no **NestJs**, um framework Node.js progressivo para construção de aplicações eficientes e escaláveis.
