@@ -3,7 +3,7 @@ publishDate: 2024-09-30T12:00:00.000Z
 author: Diogo Felizardo
 title: Tratamento de Erros e Validação de Dados no NestJS
 excerpt: Aprenda a implementar um robusto sistema de tratamento de erros e validação de dados em suas aplicações NestJS para garantir a integridade e a confiabilidade.
-image: '~/assets/images/posts/default.jpg'
+image: '~/assets/images/posts/8.jpg'
 category: NestJS
 tags:
   - Tratamento de Erros
