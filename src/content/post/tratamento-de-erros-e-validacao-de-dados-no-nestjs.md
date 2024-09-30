@@ -416,9 +416,6 @@ Content-Type: application/json
 }
 ```
 
-
-https://github.com/diogofelizardo/tratamento-de-erros-e-validacao-de-dados-no-nestjs
-
 ## Conclusão
 
 Implementar um sistema eficaz de tratamento de erros e validação de dados é essencial para o desenvolvimento de aplicações robustas e seguras. O NestJS facilita esse processo com suas ferramentas integradas, como **DTOs**, **Pipes** e **Filtros de Exceção**. Ao seguir as práticas abordadas neste post, você garantirá a integridade dos dados e fornecerá uma melhor experiência para os usuários e desenvolvedores que interagem com sua API.
