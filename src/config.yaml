@@ -4,12 +4,12 @@ site:
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: aXzNFdHRGt1Nj037GIMY9Y9EQhC5CY7LVLER
 
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
+    default: Felizardo.DEV
     template: '%s — AstroWind'
   description: "\U0001F4BB Blog sobre programação, com dicas, tutoriais e novidades do mundo da tecnologia."
   robots:
