@@ -10,7 +10,7 @@ site:
 metadata:
   title:
     default: Felizardo.DEV
-    template: '%s — AstroWind'
+    template: '%s — Felizardo.DEV'
   description: "\U0001F4BB Blog sobre programação, com dicas, tutoriais e novidades do mundo da tecnologia."
   robots:
     index: true
