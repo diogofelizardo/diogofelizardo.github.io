@@ -247,4 +247,4 @@ Neste tutorial, construímos um chat em tempo real utilizando NestJs e WebSocket
 
 ## Repositório no GitHub
 
-Você pode acessar o código completo deste projeto no [GitHub](https://github.com/seu-usuario/nestjs-chat).
+Você pode acessar o código completo deste projeto no [GitHub](https://github.com/diogofelizardo/nestjs-chat-em-tempo-real-com-websockets).
