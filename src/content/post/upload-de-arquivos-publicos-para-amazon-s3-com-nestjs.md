@@ -11,7 +11,7 @@ tags:
   - upload
   - desenvolvimento
 metadata:
-  canonical: https://diogofelizardo.github.io/blog/upload-de-arquivos-publicos-para-amazon-s3-com-nestjs
+  canonical: https://diogofelizardo.github.io/upload-de-arquivos-publicos-para-amazon-s3-com-nestjs
 ---
 
 ## Sumário

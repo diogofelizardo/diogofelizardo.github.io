@@ -10,7 +10,7 @@ tags:
   - NestJS
   - Desenvolvimento Backend
 metadata:
-  canonical: https://diogofelizardo.github.io/blog/logging-no-nestjs
+  canonical: https://diogofelizardo.github.io/logging-no-nestjs
 ---
 
 O **logging** é uma parte essencial no desenvolvimento de aplicações backend, permitindo monitorar o comportamento do sistema, diagnosticar problemas e manter registros de eventos importantes. Neste post, exploraremos como implementar e customizar o sistema de logs no **NestJs**, um framework Node.js progressivo para construção de aplicações eficientes e escaláveis.

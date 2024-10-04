@@ -11,7 +11,7 @@ tags:
   - controladores
   - serviços
 metadata:
-  canonical: https://diogofelizardo.github.io/blog/entendendo-modulos-controladores-servicos-nestjs
+  canonical: https://diogofelizardo.github.io/entendendo-modulos-controladores-servicos-nestjs
 ---
 
 Se você está começando com o **NestJS**, provavelmente já percebeu que ele segue uma estrutura bem organizada. Ao desenvolver uma aplicação, três conceitos principais formam a base do framework: **Módulos**, **Controladores** e **Serviços**. Neste post, vamos explorar o que cada um deles faz e como eles se integram para criar uma aplicação escalável e de fácil manutenção.

@@ -10,7 +10,7 @@ tags:
   - WebSockets
   - Chat
 metadata:
-  canonical: https://seu-blog.com/posts/nestjs-chat-em-tempo-real-com-websockets
+  canonical: https://diogofelizardo.github.io/nestjs-chat-em-tempo-real-com-websockets
 ---
 
 Criar aplicações em tempo real tornou-se essencial nos dias de hoje, e o NestJs, com seu suporte a WebSockets, facilita a implementação de funcionalidades como chats em tempo real. Neste tutorial, vamos construir um chat simples utilizando NestJs e WebSockets, passo a passo.

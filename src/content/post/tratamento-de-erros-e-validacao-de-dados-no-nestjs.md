@@ -10,7 +10,7 @@ tags:
   - Validação de Dados
   - NestJS
 metadata:
-  canonical: https://diogofelizardo.github.io/blog/tratamento-de-erros-e-validacao-de-dados-no-nestjs
+  canonical: https://diogofelizardo.github.io/tratamento-de-erros-e-validacao-de-dados-no-nestjs
 ---
 
 

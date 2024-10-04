@@ -12,7 +12,7 @@ tags:
   - api
   - tutorial
 metadata:
-  canonical: https://diogofelizardo.github.io/blog/como-criar-projeto-nestjs-do-zero
+  canonical: https://diogofelizardo.github.io/como-criar-projeto-nestjs-do-zero
 ---
 
 O **NestJS** é um framework Node.js progressivo para construir aplicações server-side eficientes e escaláveis. Inspirado pelo Angular, ele utiliza conceitos como **decorators** e **modularização**, facilitando a criação e manutenção de projetos complexos. Neste tutorial, você aprenderá a criar um projeto NestJS do zero, entenderá a estrutura de pastas e implementará uma API básica com métodos **GET** e **POST**. Vamos lá!

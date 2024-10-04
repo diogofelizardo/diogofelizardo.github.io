@@ -10,7 +10,7 @@ tags:
   - middleware
   - desenvolvimento
 metadata:
-  canonical: https://diogofelizardo.github.io/blog/middleware-nestjs-quando-e-como-usar
+  canonical: https://diogofelizardo.github.io/middleware-nestjs-quando-e-como-usar
 ---
 
 O NestJS é um framework robusto que facilita o desenvolvimento de aplicações Node.js com arquitetura modular e altamente escalável. Um dos recursos mais úteis para controlar o fluxo de requisições é o **middleware**.

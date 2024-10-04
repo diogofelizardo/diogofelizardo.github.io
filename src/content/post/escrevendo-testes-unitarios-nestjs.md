@@ -10,7 +10,7 @@ tags:
   - testes unitários
   - jest
 metadata:
-  canonical: https://diogofelizardo.github.io/blog/escrevendo-testes-unitarios-nestjs
+  canonical: https://diogofelizardo.github.io/escrevendo-testes-unitarios-nestjs
 ---
 
 

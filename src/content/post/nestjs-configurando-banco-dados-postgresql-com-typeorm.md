@@ -13,7 +13,7 @@ tags:
 - banco de dados
 - tutorial 
 metadata: 
-  canonical: https://diogofelizardo.github.io/blog/nestjs-configurando-banco-dados-postgresql-com-typeorm
+  canonical: https://diogofelizardo.github.io/nestjs-configurando-banco-dados-postgresql-com-typeorm
 ---
 
 Neste post, vamos explorar como configurar um banco de dados PostgreSQL em uma aplicação NestJS utilizando o TypeORM. Vamos abordar desde a instalação das dependências necessárias até a criação de entidades e a conexão com o banco de dados.
