@@ -29,6 +29,7 @@ metadata:
 - [Exemplos de Resultados](#exemplos-de-resultados)
 - [Links Úteis](#links-úteis)
 - [Referências](#referências)
+- [Repositório no GitHub](#repositório-no-github)
 - [Conclusão](#conclusão)
 
 ## Introdução
@@ -290,6 +291,10 @@ A resposta da API para a criação do usuário será:
 - [NestJS Documentation - Event Emitter](https://docs.nestjs.com/events)
 - [Designing Event-Driven Systems](https://martinfowler.com/articles/201701-event-driven.html)
 - [Understanding Event-Driven Architecture](https://aws.amazon.com/event-driven-architecture/)
+
+## Repositório no GitHub
+
+Você pode acessar o código completo deste projeto no [GitHub](https://github.com/diogofelizardo/nestjs-arquitetura-event-driven).
 
 ## Conclusão
 
