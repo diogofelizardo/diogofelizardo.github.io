@@ -1,9 +1,9 @@
 ---
-publishDate: 2024-10-04T00:00:00.000Z
+publishDate: 2024-10-03T00:00:00.000Z
 author: Diogo Felizardo
 title: 'NestJS: Arquitetura Event-Driven'
 excerpt: Aprenda a implementar uma arquitetura orientada a eventos utilizando NestJS.
-image: '~/assets/images/posts/default.jpg'
+image: '~/assets/images/posts/11.jpg'
 category: NestJS
 tags:
   - NestJS
