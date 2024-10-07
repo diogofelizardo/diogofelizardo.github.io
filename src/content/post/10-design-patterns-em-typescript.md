@@ -4,7 +4,7 @@ author: Diogo Felizardo
 title: 10 Design Patterns em TypeScript com Soluções para Problemas Reais
 excerpt: Explore 10 padrões de design em TypeScript aplicados a problemas reais, melhorando a estrutura e a manutenção do seu código.
 image: '~/assets/images/posts/14.jpg'
-category: Desenvolvimento de Software
+category: Typescript
 tags:
   - TypeScript
   - Design Patterns
