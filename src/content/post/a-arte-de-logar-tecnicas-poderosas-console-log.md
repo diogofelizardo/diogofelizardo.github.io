@@ -171,7 +171,7 @@ Exemplo de saída do console.assert
 Já se pegou incrementando manualmente um número para logging? `console.count()` é útil para acompanhar quantas vezes algo foi executado, ou com que frequência um bloco de código foi acessado.
 
 Você pode opcionalmente dar um rótulo para seu contador, o que permitirá gerenciar múltiplos contadores e tornar a saída mais clara.
-Os contadores sempre come��am a partir de 1. Você pode resetar um contador a qualquer momento com `console.countReset()`, que também aceita um parâmetro de rótulo opcional.
+Os contadores sempre começam a partir de 1. Você pode resetar um contador a qualquer momento com `console.countReset()`, que também aceita um parâmetro de rótulo opcional.
 
 O código a seguir irá incrementar o contador para cada item no array, o valor final será 8.
 
